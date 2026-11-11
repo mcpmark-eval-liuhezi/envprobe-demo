@@ -1,2 +1,1 @@
-# envprobe-demo
-envprobe demo service
+# envprobe-demoenvprobe demo service
