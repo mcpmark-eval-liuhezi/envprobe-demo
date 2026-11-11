@@ -7,5 +7,5 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
-      - name: Say hello
-        run: echo "envprobe demo verify"
+      - name: Echo a line
+        run: echo "envprobe CI verify"
