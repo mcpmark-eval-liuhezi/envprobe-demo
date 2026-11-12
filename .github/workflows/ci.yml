@@ -1,11 +1,11 @@
 name: verify
 
 on:
-  push
+  push:
 
 jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
-      - name: Echo check
-        run: echo "envprobe demo check"
+      - name: Echo a line
+        run: echo "verify workflow ok"
